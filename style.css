@@ -39,6 +39,7 @@ header > h1{
   position: absolute;
   top:30px;
   left:-25px;
+  color:green;
 }
 #computer-label{
   position: absolute;
@@ -71,20 +72,15 @@ img{
   padding: 10px;
   transition: all 0.7s ease-out;
   text-align: center;
-<<<<<<< HEAD
   color:white;
   font-family: 'Courier New', Courier, monospace;
-=======
+
   color:red;
->>>>>>> 8f0883c5890c2c1b5fb8cd775aa0523fd638578f
 }
 .choice:hover{
   cursor: pointer;
   color:white;
-<<<<<<< HEAD
 
-=======
->>>>>>> 8f0883c5890c2c1b5fb8cd775aa0523fd638578f
 }
 #action-message{
  color:white;
