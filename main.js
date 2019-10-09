@@ -1,5 +1,6 @@
 let UserScore = 0;
 let CompScore = 0;
+let amb = 9;
 const User_Score_spam = document.getElementById('user-score');
 const Comp_Score_span = document.getElementById('computer-score');
 const Show_result_p = document.querySelector('.results > p');
