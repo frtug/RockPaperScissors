@@ -6,6 +6,7 @@ const Show_result_p = document.querySelector('.results > p');
 const User_Choice_rock = document.getElementById('r');
 const User_Choice_paper = document.getElementById('p');
 const User_Choice_scissor = document.getElementById('s');
+const resulter = document.getElementById('action');
 
 const u = "User".fontsize(3).fontcolor('red').sub();
 const c = "comp".fontsize(3).fontcolor('red').sub();
@@ -27,7 +28,7 @@ function win(user,computer){
   console.log("You win");
   document.getElementById(user).classList.add('green');
   setTimeout(function(){document.getElementById(user).classList.remove('green');},600)
-
+  resulter.innerHTML = "Winner!!"
 }
 function loose(user,computer){
   CompScore++;
@@ -36,13 +37,14 @@ function loose(user,computer){
   console.log("You lost");
   document.getElementById(user).classList.add('red');
   setTimeout(function(){document.getElementById(user).classList.remove('red');},600)
-
+  resulter.innerHTML = "Looser!!"
 }
 function draw(user,computer){
   Show_result_p.innerHTML = "Draw";
   console.log("Draw");
   document.getElementById(user).classList.add('grey');
   setTimeout(function(){document.getElementById(user).classList.remove('grey');},600)
+  resulter.innerHTML = "Play For Win!!"
 
 }
 
