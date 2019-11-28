@@ -10,4 +10,4 @@
 
 # Scissors                        ![](scissors.png)
 
-Made by all the ♥️:heart:
+Made by all the ♥️:heart: Abhishek (frtug)
