@@ -6,8 +6,8 @@
 
 # Rock                            ![](rock.png)
 
-# Paper                           ![](paper.png)
+# Paper                              ![](paper.png)
 
-# Scissors                        ![](scissors.png)
+# Scissors                              ![](scissors.png)
 
 Made by all the ♥️:heart: Abhishek (frtug)
