@@ -10,4 +10,6 @@
 
 # Scissors                              ![](scissors.png)
 
+#Planing to add more functionality.................
+
 Made by all the ♥️:heart: Abhishek (frtug)
